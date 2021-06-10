@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(window).on("scroll", function () {
+      if ($(window).scrollTop()) {
+        $("nav").addClass("black");
+      } else {
+        $("nav").addClass("black");
+      }
+    });
+  </script>
+  <title>MyPhotographySite</title>
+</head>
+
+<body>
+  <nav>
+    <!-- <div class="name"><h3>[AR PHOTO'S]</h3></div> -->
+    <ul>
+      <li>
+        <a href="#" class="active">HOME</a>
+        <a href="#aboutme">ABOUT-ME</a>
+        <a href="#mygallery">LATEST SHOT</a>
+        <a href="#myservice">SERVICE</a>
+        <a href="#mycontact">CONTACT</a>
+        <img src="/imgs/menu.png" height="25px" width="25px" />
+      </li>
+    </ul>
+  </nav>
+  <section class="intro">
+    <h2>ARASH KHATTAL</h2>
+    <h4>~~~~~~ MOBILE PHOTOGRAPHER ~~~~~~</h4>
+  </section>
+  <section class="aboutme" id="aboutme">
+    <div>
+      <h4>ABOUT ME</h4>
+    </div>
+    <div>
+      <h2>
+        I'm Arash Khattal, a Mobile Photographer.My Passion Is To Taking
+        Photos
+      </h2>
+      <h3>Of Nature And SunSet</h3>
+      <h5>A LITTLE ABOUT ME</h5>
+    </div>
+    <img src="/imgs/profile.jpeg" class="aboutmepic" width="210" height="210" />
+    <div class="skills">
+      <h1>MY SKILLS</h1>
+      <li>
+        <h3>Nature [90%]</h3>
+        <span class="bar"><span class="nature"></span></span>
+      </li>
+      <li>
+        <h3>Sunset [70%]</h3>
+        <span class="bar"><span class="sunset"></span></span>
+      </li>
+      <li>
+        <h3>Humans [30%]</h3>
+        <span class="bar"><span class="humans"></span></span>
+      </li>
+    </div>
+  </section>
+  <section class="gallery" id="mygallery">
+    <div class="main">
+      <h1>Latest Shot</h1>
+      <div class="gallery">
+        <div class="img">
+          <img src="/imgs/crab.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/eye(bw).jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/treesun.jpeg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/festival.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/perfection.jpeg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/seamonument.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/treedrops.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/tinysea.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/whiteshoes.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/boatsunset.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/mumbai1.jpeg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/candle.jpg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/IMG_20200908_181024-01.jpeg" />
+        </div>
+        <div class="img">
+          <img src="/imgs/IMG_20201120_173656-01.jpeg" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="quote">
+    <h3>LIFE IS AN ADVANTURE.CAPTURE EVERY SECOND</h3>
+  </section>
+  <section class="service" id="myservice">
+    <div class="containers">
+      <div class="card">
+        <div class="imgbx" data-text="Nature">
+          <img src="/imgs/oldpicture.png" />
+        </div>
+        <div class="contents">
+          <h3>Nature</h3>
+          <p>
+            <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              ipsam voluptas dolorum laborum assumenda non a tempore maxime
+              iste illo.</b>
+          </p>
+          <a href="#mygallery">Get More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbx" data-text="Sunset">
+          <img src="/imgs/sunset.png" />
+        </div>
+        <div class="contents">
+          <h3>Sunset</h3>
+          <p>
+            <b>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              ipsam voluptas dolorum laborum assumenda non a tempore maxime
+              iste illo.</b>
+          </p>
+          <a href="#mygallery">Get More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbx" data-text="Model">
+          <img src="/imgs/oldrole-model.png" />
+        </div>
+        <div class="contents">
+          <h3>Model</h3>
+          <p>
+            <b>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              ipsam voluptas dolorum laborum assumenda non a tempore maxime
+              iste illo.
+            </b>
+          </p>
+          <a href="#mygallery">Get More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgbx" data-text="Mobile Photography">
+          <img src="/imgs/mobile.png" />
+        </div>
+        <div class="contents">
+          <h3>Mobile</h3>
+          <p>
+            <b>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta
+              ipsam voluptas dolorum laborum assumenda non a tempore maxime
+              iste illo.
+            </b>
+          </p>
+          <a href="#mygallery">Get More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="mycontact">
+    <div class="aboutsec">
+      <div class="innercontain">
+        <h1>CONTACT US</h1>
+        <p class="text">
+          <b>ARASH KHATTAL</b><br />
+          I invest noteworthy energy in Nature photography, Sunset, family and
+          senior pictures, normally heading off to your objective to get the
+          perfect moment in the perfect place.
+        </p>
+        <div class="skill1">
+          <span>Nature</span>
+          <span>Sunset</span>
+          <span>Model</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="foot">
+      <center>
+        <h4>&copy; COPYRIGHT 2021.AR PHOTO-S.ALL RIGHTS RESERVED</h4>
+      </center>
+    </div>
+  </section>
+</body>
+
+</html>
